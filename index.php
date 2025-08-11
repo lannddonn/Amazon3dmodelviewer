@@ -29,15 +29,3 @@ if (isset($_POST['url'])) {
 }
 
 ?>
-<html>
-    <head>
-        <title>Amazon.com 3d model parser</title>
-</head>
-<body>
-    <form method="POST">
-        <label>Amazon.es url: <input type="text" name="url" /></label>
-        <input type="submit" value="Get 3d model url" />
-    </form>
-    <?= $output ?>
-</body>
-</html>
